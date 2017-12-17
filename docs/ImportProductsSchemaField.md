@@ -1,4 +1,4 @@
-# Cymbio3Api.ImportProductsSchemaField
+# Cymbio.ImportProductsSchemaField
 
 ## Properties
 Name | Type | Description | Notes

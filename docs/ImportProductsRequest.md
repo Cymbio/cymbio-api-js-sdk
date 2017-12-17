@@ -1,4 +1,4 @@
-# Cymbio3Api.ImportProductsRequest
+# Cymbio.ImportProductsRequest
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# Cymbio3Api.DefaultApi
+# Cymbio.DefaultApi
 
 All URIs are relative to *http://localhost:10010/v3*
 
@@ -22,14 +22,14 @@ Returns a supplier by ID.
 
 ### Example
 ```javascript
-import Cymbio3Api from 'cymbio_3_api';
-let defaultClient = Cymbio3Api.ApiClient.instance;
+import Cymbio from 'cymbio';
+let defaultClient = Cymbio.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: Oauth2
 let Oauth2 = defaultClient.authentications['Oauth2'];
 Oauth2.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new Cymbio3Api.DefaultApi();
+let apiInstance = new Cymbio.DefaultApi();
 
 let supplierId = 56; // Number | The id of the supplier to get.
 
@@ -76,14 +76,14 @@ Returns a variant by ID.
 
 ### Example
 ```javascript
-import Cymbio3Api from 'cymbio_3_api';
-let defaultClient = Cymbio3Api.ApiClient.instance;
+import Cymbio from 'cymbio';
+let defaultClient = Cymbio.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: Oauth2
 let Oauth2 = defaultClient.authentications['Oauth2'];
 Oauth2.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new Cymbio3Api.DefaultApi();
+let apiInstance = new Cymbio.DefaultApi();
 
 let variantId = 56; // Number | The id of the variant to get.
 
@@ -130,14 +130,14 @@ Returns all variants of a supplier.
 
 ### Example
 ```javascript
-import Cymbio3Api from 'cymbio_3_api';
-let defaultClient = Cymbio3Api.ApiClient.instance;
+import Cymbio from 'cymbio';
+let defaultClient = Cymbio.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: Oauth2
 let Oauth2 = defaultClient.authentications['Oauth2'];
 Oauth2.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new Cymbio3Api.DefaultApi();
+let apiInstance = new Cymbio.DefaultApi();
 
 let supplierId = 56; // Number | The id of the supplier to add the variants to.
 
@@ -184,19 +184,19 @@ Imports a file of variants and adds to the supplier
 
 ### Example
 ```javascript
-import Cymbio3Api from 'cymbio_3_api';
-let defaultClient = Cymbio3Api.ApiClient.instance;
+import Cymbio from 'cymbio';
+let defaultClient = Cymbio.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: Oauth2
 let Oauth2 = defaultClient.authentications['Oauth2'];
 Oauth2.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new Cymbio3Api.DefaultApi();
+let apiInstance = new Cymbio.DefaultApi();
 
 let supplierId = 56; // Number | The id of the supplier to add the variants to.
 
 let opts = { 
-  'body': new Cymbio3Api.ImportProductsRequest() // ImportProductsRequest | The file url and import parameters.
+  'body': new Cymbio.ImportProductsRequest() // ImportProductsRequest | The file url and import parameters.
 };
 
 apiInstance.importProducts(supplierId, opts, (error, data, response) => {
@@ -238,17 +238,17 @@ Saves a new supplier.
 
 ### Example
 ```javascript
-import Cymbio3Api from 'cymbio_3_api';
-let defaultClient = Cymbio3Api.ApiClient.instance;
+import Cymbio from 'cymbio';
+let defaultClient = Cymbio.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: Oauth2
 let Oauth2 = defaultClient.authentications['Oauth2'];
 Oauth2.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new Cymbio3Api.DefaultApi();
+let apiInstance = new Cymbio.DefaultApi();
 
 let opts = { 
-  'body': new Cymbio3Api.PostSupplierRequest() // PostSupplierRequest | The supplier to save.
+  'body': new Cymbio.PostSupplierRequest() // PostSupplierRequest | The supplier to save.
 };
 
 apiInstance.postSupplier(opts, (error, data, response) => {
@@ -289,19 +289,19 @@ Saves a new variant.
 
 ### Example
 ```javascript
-import Cymbio3Api from 'cymbio_3_api';
-let defaultClient = Cymbio3Api.ApiClient.instance;
+import Cymbio from 'cymbio';
+let defaultClient = Cymbio.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: Oauth2
 let Oauth2 = defaultClient.authentications['Oauth2'];
 Oauth2.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new Cymbio3Api.DefaultApi();
+let apiInstance = new Cymbio.DefaultApi();
 
 let supplierId = 56; // Number | The id of the supplier to add the variants to.
 
 let opts = { 
-  'body': new Cymbio3Api.PostVariantRequest() // PostVariantRequest | The variant to save.
+  'body': new Cymbio.PostVariantRequest() // PostVariantRequest | The variant to save.
 };
 
 apiInstance.postVariant(supplierId, opts, (error, data, response) => {

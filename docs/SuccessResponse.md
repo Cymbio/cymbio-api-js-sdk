@@ -1,4 +1,4 @@
-# Cymbio3Api.SuccessResponse
+# Cymbio.SuccessResponse
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# Cymbio3Api.PostVariantRequest
+# Cymbio.PostVariantRequest
 
 ## Properties
 Name | Type | Description | Notes

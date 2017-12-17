@@ -1,4 +1,4 @@
-# Cymbio3Api.GetVariantsResponse
+# Cymbio.GetVariantsResponse
 
 ## Properties
 Name | Type | Description | Notes

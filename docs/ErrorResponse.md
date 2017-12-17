@@ -1,4 +1,4 @@
-# Cymbio3Api.ErrorResponse
+# Cymbio.ErrorResponse
 
 ## Properties
 Name | Type | Description | Notes

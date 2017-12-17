@@ -1,4 +1,4 @@
-# Cymbio3Api.GetSupplierResponse
+# Cymbio.GetSupplierResponse
 
 ## Properties
 Name | Type | Description | Notes
