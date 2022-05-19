@@ -1,3 +1,5 @@
+# Deprecated - this SDK is no longer supported
+
 # cymbio
 
 Cymbio - JavaScript client for cymbio
